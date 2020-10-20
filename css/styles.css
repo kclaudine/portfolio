@@ -1,0 +1,216 @@
+.nav h3{
+    font-weight: bold;
+    font-size: 50px;
+    color: cornsilk ;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul li{
+    display: inline;
+    float: left;
+}
+li a{
+    display: block;
+    color:wheat;
+    text-align: center;
+    font-size: 20px;
+    padding: 12px;
+    text-decoration: none;
+}
+li a:hover{
+    color: coral;
+    text-decoration: none;
+}
+
+/* home section styling */
+.home{
+    color:wheat;
+    min-height: 500px;
+
+}
+.nav{
+    border: 3px;
+    box-shadow: 5px 5px 8px rgb(210, 150, 226);
+    position: relative;
+    background-color:#302e4d;
+}
+.max-width{
+    
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;     
+}
+.max-width .home-content{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.home-content{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    text-align: center;   
+}
+.home-content img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    display: inline-block;
+    border: 8px solid #ffffff;
+}
+.shadow-dark{
+    -webkit-box-shadow: 0 0 20px grba{48,46,77,0.15}
+}
+.hidden{
+    display: none!important;
+}
+.home-content .text-1{
+    font-size: 30px;
+    color: #302e4d;
+    font-weight: 700;
+    margin: 20px 0 8px;
+}
+.home-content .text-2{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 22px;
+    color: #504e70;
+}  
+.home-content .text-3{
+    padding-top: 1%;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 22px;
+    color: #504e70;
+}  
+/*about section*/
+/*.section-title{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+ 
+.padd-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section-title h2{
+    font-size: 40px;
+    color: #302e4d;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    /*background-color: gray;
+}
+.about .about-content .about-text h3{
+font-size: 50px;
+margin-bottom: 15px;
+font-weight: 700;
+color:green;
+}
+.about-text h3 span{
+    color: crimson;
+}*/
+
+.about .container h2{
+    font-size: 40px;
+    color: #302e4d;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+}
+.about .container .about-text h3{
+    padding-top: 2%;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #504e70;
+} 
+.about-text h3 span{
+    color: crimson;
+}
+.about .container .about-text p{
+    line-height: 25px;
+    color: #504e70;
+    margin: 0;
+    padding-bottom: 2%;
+} 
+.about .container .personal h4{
+    color: #302e4d;
+    font-size: 30px;
+    font-weight: 500;
+}
+.about .container .personal .row p{
+    font-weight: 500;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #302e4d;
+    margin: 0;
+    border-bottom: 1px solid #e8dfec;
+}
+.about .container .personal .row p span{
+    font-weight: 300;
+    color: #504e70;
+    margin-left: 4px;
+    display: inline-block;
+}
+.about .container .personal .button{
+    margin-top: 30px;
+}
+.about .container .personal .button .btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 35px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+ .skills .skill-item h5{
+    color: #302e4d;
+    font-size: 17px;
+    font-weight: 500;
+}
+.education-experience .row h4{
+    padding-top: 7%;
+    padding-bottom: 2%;
+    color: #302e4d;
+    font-size: 30px;
+    font-weight: 500;
+}
+.education-experience .row h6{
+    color: #504e70;
+    font-size: 16px;
+    font-weight: 300;
+}
+.education-experience .row p{
+    color: #504e70;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
